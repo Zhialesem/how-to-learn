@@ -128,12 +128,15 @@
   font-weight: 600;
 }
 
+.digits {
+  padding: 100px 0;
+}
+
 .section-title {
   display: flex;
   justify-content: center;
   margin: auto;
   width: 60%;
-  padding-top: 100px;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -154,11 +157,9 @@
 .table {
   display: flex;
   padding-top: 60px;
-
   justify-content: space-between;
   margin: auto;
   width: 1100px;
-
 }
 
 .table:nth-of-type(2n) {
