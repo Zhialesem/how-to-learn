@@ -205,7 +205,7 @@
 
 
 .feynman__title {
-   line-height: 1.15;
+  line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
   z-index: 2;
@@ -219,18 +219,18 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-   z-index: 2;
-    padding-top: 70px;
-      margin: 0 auto;
+  z-index: 2;
+  padding-top: 70px;
+  margin: 0 auto;
 }
 
 .feynman__link {
   color: #2f80ed;
   text-decoration: underline;
   line-height: 51px;
-    font-size: 36px;
-    font-weight: normal;
-    z-index: 2;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 2;
   z-index: 2;
 
   padding-top: 445px;
@@ -238,29 +238,76 @@
   right: 48px;
 }
 
-.header__main-illustration {
-  width: 765px;
-  height: 608px;
-  right: 0px;
-  bottom: 0px;
-  position: absolute;
-  margin: 0;
-  z-index: 1;
+
+.kaufman {
+  padding: 90px 0;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
 }
 
+.section-title_theme_dark {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
 
+.section-subtitle_theme_dark {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 60%;
+  padding-top: 20px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
 
+.kaufman__triangle {
+  background-image: url("../images/kaufman-triangle.svg");
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  right: -210px;
+ bottom: 0px;
+   z-index: 1;
 
+}
 
+.table_theme_dark {
+  display: flex;
+  padding-top: 60px;
+  justify-content: space-between;
+  margin: auto;
+  width: 1100px;
 
+}
 
+.table:nth-of-type(2n) {
+  padding-top: 80px;
+}
 
-
-
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+  list-style: none;
+  width: 250px;
+  z-index: 2;
+}
+
+.table__heading_theme_dark {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.table__tex_theme_darkt {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
 }
