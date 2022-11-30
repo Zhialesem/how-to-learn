@@ -227,8 +227,7 @@
   font-size: 36px;
   font-weight: normal;
   z-index: 2;
-  z-index: 2;
-  padding-top: 445px;
+   padding-top: 445px;
   position: absolute;
   right: 48px;
 }
@@ -371,10 +370,6 @@
   color: white;
  }
 
-.footer__column_content_social {
-  display: flex;
-  flex-direction: column;
-}
 
 .footer__social-icon {
   height: 16px;
