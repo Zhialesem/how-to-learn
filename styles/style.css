@@ -19,6 +19,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  overflow: hidden;
 }
 
 .logo {
@@ -27,10 +28,11 @@
   z-index: 2;
 }
 
-.logo__place_header {
+.logo_place_header {
   top: 30px;
   left: 64px;
   position: absolute;
+
 }
 
 .header__title {
@@ -57,10 +59,11 @@
 
 .header__link {
   color: #2f80ed;
-  text-decoration: underline;
+  text-decoration: none;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  text-decoration: none;
   z-index: 2;
 }
 
@@ -97,6 +100,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
 }
 
 .two-columns__brief {
@@ -105,6 +109,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin: 0
 }
 
 .two-columns__main-text {
@@ -120,9 +125,10 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 0;
 }
 
-.span-accent {
+.two-columns__span-accent {
   display: inline;
   font-weight: 600;
 }
@@ -189,7 +195,7 @@
 }
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
@@ -222,12 +228,12 @@
 
 .feynman__link {
   color: #2f80ed;
-  text-decoration: underline;
+  text-decoration: none;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   z-index: 2;
-   padding-top: 445px;
+  padding-top: 445px;
   position: absolute;
   right: 48px;
 }
@@ -236,9 +242,8 @@
 .kaufman {
   padding: 90px 0;
   position: relative;
-  z-index: 2;
-  overflow: hidden;
-  background-color: black;
+   overflow: hidden;
+  background-color: #1f1f1f;
   color: white;
 }
 
@@ -250,6 +255,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
+  z-index: 2;
 }
 
 .section-subtitle_theme_dark {
@@ -261,6 +267,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  z-index: 2;
 }
 
 .kaufman__triangle {
@@ -309,7 +316,7 @@
 .footer {
   min-height: 350px;
   display: flex;
-  background-color: black;
+  background-color: #1f1f1f;
   color: white;
 }
 
@@ -338,7 +345,7 @@
   flex-direction: column;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   width: 228px;
   height: 32px;
 }
@@ -350,7 +357,7 @@
   padding: 18px 0;
 }
 
-.footer_column-heading {
+.footer__column-heading {
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
@@ -368,7 +375,7 @@
   font-weight: normal;
   text-decoration: none;
   color: white;
- }
+}
 
 
 .footer__social-icon {
