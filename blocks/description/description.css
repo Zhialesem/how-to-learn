@@ -1,0 +1,7 @@
+.description {
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+}
