@@ -47,87 +47,25 @@
 
 
 
-.kaufman__triangle {
-  background-image: url("../images/kaufman-triangle.svg");
-  height: 877px;
-  width: 877px;
-  position: absolute;
-  background-size: cover;
-  right: -210px;
-  top: 0;
-  z-index: 1;
-
-}
-
-.table__cell_theme_dark {
-  width: 200px;
-  padding-top: 80px;
-  z-index: 2;
-}
-
-.footer {
-  min-height: 350px;
-  display: flex;
-  background-color: #1f1f1f;
-  color: white;
-}
-
-.footer__columns {
-  display: flex;
-  margin: 0 auto;
-  width: 90%;
-  justify-content: space-between;
-  padding: 60px 0 40px;
-}
-
-.footer_column {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  margin: 0;
-}
-
-.footer__column_content_copyright {
-  justify-content: space-between;
-  flex-basis: 711px;
-}
-
-.logo_place_footer {
-  width: 228px;
-  height: 32px;
-}
-
-.footer__author {
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  padding: 18px 0;
-  margin: 0;
-}
 
 
-.footer__column-links {
-  padding: 20px 0 16px;
-  margin: 0;
-  list-style-type: none;
-}
 
-.footer__column-link {
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  text-decoration: none;
-  color: white;
-}
 
-.footer__column-heading {
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: 600;
-  margin: 0;
-}
 
-.footer__social-icon {
-  height: 16px;
-  width: 16px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
