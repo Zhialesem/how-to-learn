@@ -3,4 +3,11 @@
     line-height: 42px;
     font-size: 30px;
     font-weight: normal;
+text-decoration: none;
+    transition: .6s ease-out .1s;
+    border: 1px solid red;
+}
+
+.khan__buy-link:hover {
+    opacity: .6;
 }
